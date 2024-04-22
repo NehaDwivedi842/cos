@@ -1,0 +1,6 @@
+train: C:\Users\rajen\Similarity\Main\Coin+Yolo\train
+val: C:\Users\rajen\Similarity\Main\Coin+Yolo\val
+
+nc: 1
+
+names: ["Coin"]
