@@ -9,7 +9,7 @@ import math
 from ultralytics import YOLO
 
 app = dash.Dash(__name__)
-
+server = app.server
 # Function to detect objects, annotate image, and calculate tonnage
 def detect_objects_and_annotate(image, num_cavities, tons_per_inch_sq):
     model = YOLO("yolov8m-seg-custom.pt")
