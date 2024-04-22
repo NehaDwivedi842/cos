@@ -1,6 +1,10 @@
-opencv-python==4.9.0
-numpy==1.21.6
-imutils==0.5.4
-scikit-image==0.19.3
-streamlit==1.23.1
-git+https://github.com/ultralytics/yolov8.git
+opencv-python
+numpy
+imutils
+scikit-image
+ultralytics
+dill
+dash==2.0.0
+dash-core-components==2.0.0
+dash-html-components==2.0.0
+dash-table==5.0.0
